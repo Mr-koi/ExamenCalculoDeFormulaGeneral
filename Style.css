@@ -1,0 +1,26 @@
+.Centrar {
+    display: inline-block;              /* Usar Flexbox para la fila */
+    justify-content: center;    /* Centrar horizontalmente los elementos */
+    align-items: center;        /* Alinear verticalmente los elementos */
+    width: 30%
+}
+.btn-purple {
+    background-color: #6f42c1; /* Color morado */
+    color: white;              /* Cambiar el color del texto a blanco */
+}
+.btn-custom {
+    background-color: #1AC98E; /* Color personalizado */
+    color: white;              /* Cambiar el color del texto a blanco */
+}
+.btn-custom2 {
+    background-color: #E64759; /* Color personalizado */
+    color: white;              /* Cambiar el color del texto a blanco */
+}
+body {
+    background-color: #556270; /* Color de fondo de la página */
+    color: white;              /* Cambiar el color del texto a blanco para mejor contraste */
+}
+.titulo{
+    background-color: #ff6b6b;
+    color: white;
+}
