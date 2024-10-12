@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>la chicharronera</title>
+    <link rel="icon" type="image/png" href="img/chicharron.png">
+
+    <link rel="stylesheet" href="bootstrap-main\dist\css\bootstrap.min.css">
+<script src="bootstrap-main\dist\js\bootstrap.bundle.js"></script>
+<link rel="stylesheet" href="Style.css">
+
+</head>
+    <body>
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-6 mx-auto">
+                    <h2 class="text-white rounded p-3 titulo" >Formula general</h2>
+                </div>
+            </div>
+            <br><br><br>
+        
+            <div class="row">
+                <form action="#" id="Formulario" onsubmit="Chicharron()">
+                        
+                    <div class="col-1 Centrar" >
+                        <h1 class="btn btn-lg btn-custom">A
+                        <input type="text" class="form-control"  id="Variable_A">
+                            </h1>
+                    </div>
+                    
+                    <div class="col-1 Centrar" >
+                        <h1 class="btn btn-lg btn-custom2">B
+                        <input type="text" class="form-control" id="Variable_B">
+                            </h1>
+                    </div>
+                    
+                    <div class="col-1 Centrar" >
+                        <h1 class="btn btn-lg  btn-purple">C
+                        <input type="text" class="form-control"  id="Variable_C">
+                            </h1>
+                    </div>
+
+                
+
+            </div>
+            <br><br>
+                    
+            <div class="row">
+
+                <div class="col-6">
+                    <button class="btn btn-success">Calcular</button>
+                </div>
+
+                <div class="col">
+                    <a href="#" class="btn btn-danger" onclick="Limpiar()">Limpiar</a>
+                </div>
+            
+            </form>
+            
+            </div>
+            <br><br>
+            
+            <div class="row">
+
+                <div class="col-6">
+                    <h1 class="btn btn-info">X1
+                    <input class="form-control" type="text" id="X1" disabled placeholder="tu resultado es:">
+                </h1>
+                </div>
+
+                <div class="col-6">
+
+                    <h1 class="btn btn-info">X2
+                    <input class="form-control" type="text" id="X2" disabled placeholder="tu resultado es:">
+                    </h1>
+
+                
+                </div>
+            
+            </div>
+
+        </div>
+                <script src="app.js"></script>
+</body>
+</html>
